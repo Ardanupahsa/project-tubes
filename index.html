@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sistem Jadwal Dokter</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <aside>
+    <div class="logo">🗓️ Jadwal Dokter</div>
+    <nav id="nav"></nav>
+  </aside>
+  <main>
+    <header><h1 id="ttl"></h1></header>
+    <section id="view"></section>
+  </main>
+</div>
+
+<dialog id="dlg">
+  <h3 id="dt"></h3>
+  <form id="frm">
+    <div id="ff"></div>
+    <div class="act">
+      <button type="button" class="btn g" id="cx">Batal</button>
+      <button class="btn">Simpan</button>
+    </div>
+  </form>
+</dialog>
+<div id="toast"></div>
+<script src="app.js"></script>
+</body>
+</html>
+<header><h1 id="ttl"></h1><span id="mode" class="badge"></span></header>
